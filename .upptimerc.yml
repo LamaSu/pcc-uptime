@@ -1,0 +1,67 @@
+# Upptime configuration for Physical Capability Cloud
+# Public status page + uptime history, powered entirely by GitHub Actions.
+# Runs uptime checks every 5 minutes from GitHub's runners.
+
+owner: LamaSu
+repo: pcc-uptime
+
+sites:
+  - name: Capability Network (landing)
+    url: https://capability.network
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+
+  - name: Gateway Healthcheck
+    url: https://capability.network/health
+    expectedStatusCodes:
+      - 200
+
+  - name: Gateway Status API
+    url: https://capability.network/api/status
+    expectedStatusCodes:
+      - 200
+
+  - name: Agent Package (219 tools)
+    url: https://capability.network/agent-package.json
+    expectedStatusCodes:
+      - 200
+    headers:
+      - "Accept: application/json"
+
+  - name: ERC-8004 Agent Registration
+    url: https://capability.network/.well-known/agent-registration.json
+    expectedStatusCodes:
+      - 200
+
+  - name: Capability Types (public)
+    url: https://capability.network/api/capabilities/types
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: status.capability.network
+  name: PCC Status
+  introTitle: "**PCC Uptime** — real-time availability for capability.network"
+  introMessage: >
+    This page is powered by [Upptime](https://upptime.js.org), which runs
+    automated health checks from GitHub Actions every 5 minutes. Historical
+    response times, daily/weekly/monthly uptime, and incident timelines are
+    generated entirely from the commit log of this repository.
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/LamaSu/pcc-uptime
+    - title: Live Gateway
+      href: https://capability.network
+  theme: neutral
+
+assignees:
+  - global-mysterysnailrevolution
+
+i18n:
+  activeIncidents: Active incidents
+  allSystemsOperational: All systems operational
+  incidentReport: "Incident report from {date}"
