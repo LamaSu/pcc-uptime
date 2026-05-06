@@ -1,7 +1,7 @@
 url: https://capability.network/api/status
 status: down
-code: 404
-responseTime: 99
-lastUpdated: 2026-05-05T23:52:31.536Z
+code: 401
+responseTime: 294
+lastUpdated: 2026-05-06T23:54:19.307Z
 startTime: 2026-04-21T07:17:27.812Z
 generator: Upptime <https://github.com/upptime/upptime>
