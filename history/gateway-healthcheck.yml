@@ -1,7 +1,7 @@
 url: https://capability.network/health
-status: up
-code: 200
-responseTime: 387
-lastUpdated: 2026-05-19T00:12:09.414Z
+status: down
+code: 404
+responseTime: 10742
+lastUpdated: 2026-05-19T22:52:47.206Z
 startTime: 2026-04-21T07:17:27.269Z
 generator: Upptime <https://github.com/upptime/upptime>
