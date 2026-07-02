@@ -1,7 +1,7 @@
 url: https://capability.network/.well-known/agent-registration.json
-status: down
-code: 530
-responseTime: 2036
-lastUpdated: 2026-07-02T08:37:36.352Z
+status: up
+code: 200
+responseTime: 156
+lastUpdated: 2026-07-02T11:17:00.279Z
 startTime: 2026-04-21T07:17:30.301Z
 generator: Upptime <https://github.com/upptime/upptime>
